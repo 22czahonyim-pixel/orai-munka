@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valuta válto</title>
+    
+    <link rel="stylesheet" href="html.css">
+</head>
+<body>
+    <div class="container">
+
+        <h2>Forint válto</h2>
+
+        <input type="number" id="amount" placeholder="Összeg(HUF)">
+
+        <select id="valuta">
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+        </select>
+
+        <button onclick="convert()">Váltás</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="html.js"></script>
+</body>
+</html>
